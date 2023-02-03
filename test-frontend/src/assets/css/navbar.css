@@ -1,0 +1,26 @@
+.container {
+  width: 1440px;
+  height: 62px;
+  padding: 12px 80px;
+  justify-content: space-between;
+  gap: 339px;
+  left: 0;
+  top: 0;
+  align-items: center;
+  background: #201d2f;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.container nav {
+  background-color: #201d2f;
+}
+
+.container nav a {
+  color: #fafbff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}

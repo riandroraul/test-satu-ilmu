@@ -1,0 +1,22 @@
+.hero {
+  width: 1440px;
+  height: 808px;
+  background-image: url("../img/hero.jpg");
+}
+
+/* .hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(1, 1, 3, 1) 3%,
+    rgba(255, 255, 255, 0) 25%
+  );
+} */
+
+.hero .content {
+  text-align: center;
+}

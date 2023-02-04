@@ -3,18 +3,32 @@ import "../assets/css/navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="container">
-      <nav>
-        <a href="/sd/" className="brand">
-          brand
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">
+        Toko<span>Gadget</span>.
+      </a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search">
+          <i data-feather="search"></i>
         </a>
-        <a href="/ads/">CSS</a>
-        <a href="/ads/">JavaScript</a>
-        <a href="/asd/">Python</a>
-        <button>Sign up</button>
-        <button>Login</button>
-      </nav>
-    </div>
+        <a href="#" id="shopping-cart">
+          <i data-feather="shopping-cart"></i>
+        </a>
+        <a href="#" id="hamburger-menu">
+          <i data-feather="menu"></i>
+        </a>
+      </div>
+      <div className="tombol">
+        <a className="login">Login</a>
+        <a className="signup">Sign Up</a>
+      </div>
+    </nav>
   );
 };
 

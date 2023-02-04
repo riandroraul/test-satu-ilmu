@@ -1,3 +1,4 @@
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
   return (
     <div className="App">
       <Navbar />
+      <Hero />
       {/* <p>{data}</p> */}
     </div>
   );

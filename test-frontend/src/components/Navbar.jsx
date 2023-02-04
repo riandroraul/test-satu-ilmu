@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <div className="container">
       <nav>
-        <a href="/sd/">brand</a>
+        <a href="/sd/" className="brand">
+          brand
+        </a>
         <a href="/ads/">CSS</a>
         <a href="/ads/">JavaScript</a>
         <a href="/asd/">Python</a>

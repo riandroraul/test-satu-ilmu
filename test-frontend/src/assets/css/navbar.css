@@ -27,6 +27,10 @@
   align-items: center;
 }
 
+.container nav .brand {
+  width: 30rem;
+}
+
 .container nav button {
   float: right;
 }

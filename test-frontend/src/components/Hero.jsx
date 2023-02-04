@@ -6,7 +6,7 @@ const Hero = () => {
     <section id="home" class="hero">
       <main class="content">
         <h1>
-          Mari nikmati secangkir <span>Kopi</span>
+          Lorem, ipsum dolor. <span>Ipsum</span>
         </h1>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum,

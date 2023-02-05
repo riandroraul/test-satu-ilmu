@@ -24,14 +24,14 @@
 }
 
 .hero .content {
-  line-height: 2rem;
+  line-height: 3rem;
 }
 
-.hero .content .cta {
-  cursor: pointer;
-  font-weight: 600;
+.hero .content .beli {
+  cursor: pointer !important;
+  font-weight: 700;
   border-radius: 15px;
-  padding: 4px 18px;
+  padding: 8px 34px;
   background-color: #74cdff;
   color: #0c0e18;
 }

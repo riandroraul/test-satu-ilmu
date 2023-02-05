@@ -12,9 +12,9 @@ const Hero = () => {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum,
           mollitia.
         </p>
-        <button href="#" className="cta">
+        <a href="#" className="beli">
           Beli Sekarang
-        </button>
+        </a>
       </main>
     </section>
   );

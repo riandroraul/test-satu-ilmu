@@ -25,8 +25,12 @@ const Navbar = () => {
         </a>
       </div>
       <div className="tombol">
-        <a className="login">Login</a>
-        <a className="signup">Sign Up</a>
+        <a href="#" className="login">
+          Login
+        </a>
+        <a href="#" className="signup">
+          Sign Up
+        </a>
       </div>
     </nav>
   );

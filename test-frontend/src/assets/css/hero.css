@@ -17,8 +17,21 @@
   height: 100%;
 }
 
-.hero .content {
+.hero {
+  display: flex;
   text-align: center;
-  padding: 1.4rem 7%;
-  max-width: 60rem;
+  justify-content: center;
+}
+
+.hero .content {
+  line-height: 2rem;
+}
+
+.hero .content .cta {
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 15px;
+  padding: 4px 18px;
+  background-color: #74cdff;
+  color: #0c0e18;
 }

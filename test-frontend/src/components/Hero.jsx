@@ -3,18 +3,18 @@ import "../assets/css/hero.css";
 
 const Hero = () => {
   return (
-    <section id="home" class="hero">
-      <main class="content">
-        <h1>
+    <section id="home" className="hero">
+      <main className="content">
+        <h1 className="title">
           Lorem, ipsum dolor. <span>Ipsum</span>
         </h1>
-        <p>
+        <p className="desc">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum,
           mollitia.
         </p>
-        <a href="#" class="cta">
+        <button href="#" className="cta">
           Beli Sekarang
-        </a>
+        </button>
       </main>
     </section>
   );
